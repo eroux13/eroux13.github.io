@@ -1,27 +1,68 @@
+body{
+    height: 100%;
+    font-size: 18px;
+    line-height: 34px;
+    background: url(./images/tiles.jpg);
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    flex: 1 0 auto;
+}
 /* NavBar Styling */
 .navbar-brand{
     margin-left: 5%;
+    font-size: 2rem !important;
+    border: 2px solid teal;
+    padding: 20px;
+    color: rgb(228, 228, 228) !important;
+}
+
+nav ul li a{
+    color: rgb(228, 228, 228) !important;
+}
+
+.active{
+    background-color: teal;
+    padding-left: 8px !important;
 }
 
 .navbar-nav{
     margin-left: 80%;
 }
+
 /* NavBar Styling End */
 
 /* About Me Styling */
+#aboutMe{
+    background-color: rgb(228, 228, 228);
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
 img{
     float: left;
+    margin-right: 15px;
+}
+
+h1{
+    padding: 15px 0px;
+    border-bottom: 1px solid grey;
+}
+
+#aboutMeInfo{
+    padding-top: 10px;
 }
 /* About Me Styling End */
 
 /* Footer Styling */
 .footer{
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    height: 60px;
-    line-height: 60px;
+    line-height: 65px;
     text-align: center;
     border-top: 5px solid teal;
+    flex-shrink: 0;
 }
 /* Footer Styling End */
