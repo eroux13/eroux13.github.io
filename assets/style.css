@@ -35,7 +35,7 @@ nav ul li a{
 /* NavBar Styling End */
 
 /* About Me Styling */
-#aboutMe, #portfolio{
+#aboutMe, #portfolio, #contact{
     background-color: rgb(228, 228, 228);
     margin-top: 30px;
     margin-bottom: 5px;
@@ -63,6 +63,13 @@ h1{
     margin: 20px;
 }
 /* Portfolio Styling End */
+
+/* Form Styling */
+.btn-primary{
+    background-color: teal !important;
+    border-color: teal !important;
+}
+/* Form Styling End */
 
 /* Footer Styling */
 .footer{
