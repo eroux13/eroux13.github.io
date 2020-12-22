@@ -2,7 +2,7 @@ body{
     height: 100%;
     font-size: 18px;
     line-height: 34px;
-    background: url(./images/tiles.jpg);
+    background: url(./images/tile.jpg);
     display: flex;
     flex-direction: column;
 }
