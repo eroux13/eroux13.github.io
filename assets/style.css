@@ -35,7 +35,7 @@ nav ul li a{
 /* NavBar Styling End */
 
 /* About Me Styling */
-#aboutMe{
+#aboutMe, #portfolio{
     background-color: rgb(228, 228, 228);
     margin-top: 30px;
     margin-bottom: 5px;
@@ -57,6 +57,12 @@ h1{
     padding-top: 10px;
 }
 /* About Me Styling End */
+
+/* Portfolio Styling */
+.portfolioScreenshot{
+    margin: 20px;
+}
+/* Portfolio Styling End */
 
 /* Footer Styling */
 .footer{
