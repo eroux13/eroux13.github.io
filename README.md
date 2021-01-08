@@ -14,7 +14,7 @@ This is the home page that gives a brief description of who I am, my skills, and
 
 ![About Me Webpage Screenshot](./assets/images/homePageScreenshot.png)
 
-## Portfoloio
+## Portfolio
 
 This is the portfolio page which will showcase all of my future projects!
 
