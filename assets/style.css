@@ -1,5 +1,5 @@
 body{
-    height: 100%;
+    min-height: 100%;
     font-size: 18px;
     line-height: 34px;
     background: url(./images/tile.jpg);
@@ -7,9 +7,19 @@ body{
     flex-direction: column;
 }
 
-.container{
-    flex: 1 0 auto;
+main{
+    flex-grow: 1;
 }
+
+/* .container{
+    flex: 1 0 auto;
+} */
+
+nav, footer{
+    flex-shrink: 0;
+}
+
+
 /* NavBar Styling */
 .navbar-brand{
     margin-left: 3.5%;
@@ -25,13 +35,13 @@ nav ul li a{
 
 .active{
     background-color: teal;
+    border-radius: 8px;
     padding-left: 8px !important;
 }
 
 .navbar-nav{
     margin-left: 80%;
 }
-
 /* NavBar Styling End */
 
 /* Main Content Styling */
@@ -42,9 +52,45 @@ nav ul li a{
 }
 /* Main Content Styling End*/
 
+/* Social Card Styling */
+.social{
+    padding: 10px;
+    height: 20%;
+    width: 60%;
+    margin-top: 30px !important;
+    margin-bottom: 20px;
+    background-color: rgb(228, 228, 228);
+}
+
+.card-title{
+    color: teal;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+
+.fa-github-square, .fa-linkedin, .fa-stack-overflow{
+    font-size: 70px;
+    color: grey;
+    transition: 0.3s;
+}
+
+.fa-github-square:hover{
+    color: rgba(255, 0, 0, 0.815);
+}
+
+.fa-linkedin:hover{
+    color: blue;
+}
+
+.fa-stack-overflow:hover{
+    color: orange;
+}
+/* Social Card Styling End */
+
 /* About Me Styling */
 #aboutMe{
     margin-bottom: 10px;
+    margin-right: 50px;
 }
 
 img{
@@ -86,6 +132,7 @@ h1{
 
 /* Footer Styling */
 .footer{
+    bottom: 0;
     width: 100%;
     line-height: 65px;
     text-align: center;
