@@ -93,9 +93,11 @@ nav ul li a{
     margin-right: 50px;
 }
 
-img{
+#profilePicture{
     float: left;
     margin-right: 15px;
+    height: auto;
+    width: 350px;
 }
 
 h1{
