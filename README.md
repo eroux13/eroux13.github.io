@@ -1,6 +1,7 @@
 # Responsive Portfolio
-![HTML](https://img.shields.io/badge/HTML-84.6%25-red)
-![CSS](https://img.shields.io/badge/CSS-15.4%25-purple)
+![HTML](https://img.shields.io/badge/HTML-81.6%25-red)
+![CSS](https://img.shields.io/badge/CSS-14.4%25-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-4.0%25-yellow)
 
 ## Description
 
@@ -22,6 +23,6 @@ This is the portfolio page which will showcase all of my future projects!
 
 ## Contact
 
-This is the contact page which has a form that is still under development.
+This is the contact page. When the submit button is clicked, it will open the default mail client on the OS which will then have a populated subject line, message body, and recipient email address.
 
 ![Contact Webpage Screenshot](./assets/images/contactPageScreenshot.png)
