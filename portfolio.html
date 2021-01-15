@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio | EJ Roux</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <!-- Link Fonts Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!-- Link Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">EJ Roux</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                <a class="nav-link" href="./index.html">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-            </ul>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -35,25 +43,84 @@
     <!-- Main Content -->
     <main class="container">
         <section class="row">
-            <article class="col-md-8" id="portfolio">
+            <article class="col-lg-12 col-md-12" id="portfolio">
                 <section class="row">
                     <header class="col-12">
                         <h1>Portfolio</h1>
                     </header>
                 </section>
+                <!-- Portfolio Description -->
                 <section class="row">
                     <article class="col-12">
-                        <img src="https://place-hold.it/350x350" class="img-fluid portfolioScreenshot" alt="Screenshot of project" />
-                        <img src="https://place-hold.it/350x350" class="img-fluid portfolioScreenshot" alt="Screenshot of project" />
-                        <img src="https://place-hold.it/350x350" class="img-fluid portfolioScreenshot" alt="Screenshot of project" />
-                        <img src="https://place-hold.it/350x350" class="img-fluid portfolioScreenshot" alt="Screenshot of project" />
-                        <img src="https://place-hold.it/350x350" class="img-fluid portfolioScreenshot" alt="Screenshot of project" />
+                        <p class="portfolio">
+                            Welcome to my portfolio page. Here is a collection of my recent projects. This page will
+                            display new projects as I
+                            continue to pursue my passion for coding, so please check back frequently. Projects that are
+                            displayed will have a brief description as well as links to the deployed project and its
+                            respective repository. Click on the project images to get a better view of it. Please feel
+                            free
+                            to provide any feedback via the
+                            <strong><a href="./contact.html" class="contact">contact</a></strong>
+                            page or connect with me on social platforms!
+                        </p>
                     </article>
                 </section>
-            </article>
-            <!-- White spice on the right -->
-            <article class="col-md-4">
-                &nbsp;
+                <!-- Each row is a new project -->
+                <section class="row">
+                    <article class="col-6">
+                        <!-- GIF of project created on GIPHY -->
+                        <div style="width:100%;height:0;padding-bottom:51%;position:relative;"><iframe
+                                src="https://giphy.com/embed/TY00FbT2HkjeveNfAS" width="100%" height="100%"
+                                style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                        </div>
+                    </article>
+                    <article class="col-6">
+                        <h3>Password Generator</h3>
+                        <p>
+                            The purpose of this project is to demonstrate my ability to work with JavaScript prompts and
+                            alerts to generate a unique password under certain circumstatnces.
+                            <br>
+                            <br>
+                            <a href="https://eroux13.github.io/password_generator/" class="deploy" target="_blank"><i
+                                    class="fas fa-rocket"></i> Deployed Project</a>
+                            <br>
+                            <a href="https://github.com/eroux13/password_generator/" class="repo" target="_blank"><i
+                                    class="fas fa-code-branch"></i> Github Project Repository</a>
+                        </p>
+                    </article>
+                </section>
+                <hr>
+                <!-- Each row is a new project -->
+                <section class="row">
+                    <article class="col-6">
+                        <div style="width:100%;height:0;padding-bottom:51%;position:relative;" class="projectContainer">
+                            <a href="./assets/images/projectScreenshots/horiseonScreenshot.png" target="_blank">
+                                <img src="./assets/images/projectScreenshots/horiseonScreenshot.png"
+                                    class="img-thumbnail shadow project" alt="Horiseon Code Refactor Screenshot" />
+                                <!-- Added an img overlay for hovering over img -->
+                                <div class="overlay">
+                                    <div class="text"><i class="fas fa-search-plus"></i> Click me for a better view
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="col-6">
+                        <h3>Horiseon Code Refactor</h3>
+                        <p>
+                            The purpose of this project is to demonstrate my ability to work with existing code and be
+                            able to refactor it as well as applying semantic HTML. I also consolidated the CSS to make
+                            it more readable and so that it matches the flow of the HTML.
+                            <br>
+                            <br>
+                            <a href="https://eroux13.github.io/horiseon_code_refactor/" class="deploy"
+                                target="_blank"><i class="fas fa-rocket"></i> Deployed Project</a>
+                            <br>
+                            <a href="https://github.com/eroux13/horiseon_code_refactor/" class="repo" target="_blank"><i
+                                    class="fas fa-code-branch"></i> Github Project Repository</a>
+                        </p>
+                    </article>
+                </section>
             </article>
         </section>
     </main>
@@ -64,6 +131,9 @@
     </footer>
 
     <!-- JavaScript for the drop down -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
