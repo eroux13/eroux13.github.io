@@ -1,7 +1,7 @@
 # Responsive Portfolio
-![HTML](https://img.shields.io/badge/HTML-81.6%25-red)
-![CSS](https://img.shields.io/badge/CSS-14.4%25-purple)
-![JavaScript](https://img.shields.io/badge/JavaScript-4.0%25-yellow)
+![HTML](https://img.shields.io/badge/HTML-83.1%25-red)
+![CSS](https://img.shields.io/badge/CSS-12.6%25-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-4.3%25-yellow)
 
 ## Description
 
