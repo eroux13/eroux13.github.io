@@ -17,7 +17,7 @@ This is the home page that gives a brief description of who I am, my skills, and
 
 ## Portfolio
 
-This is the portfolio page which will showcase all of my current and future projects! Links to the deployed project and its respective repo will be listed on this page as well. Clicking on the project image/gif will open it in a new tab with the whole image or a preview of the project on giphy.
+This is the portfolio page which will showcase all of my current and future projects! Links to the deployed project and its respective repo will be listed on this page as well. Clicking on the project image/gif will open it in a new tab with the whole image or a preview of the project on [giphy](https://giphy.com/channel/whatupeeeej).
 
 ![Portfolio Webpage Screenshot](./assets/images/portfolioPageScreenshot.png)
 
