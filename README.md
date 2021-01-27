@@ -1,7 +1,7 @@
 # Responsive Portfolio
-![HTML](https://img.shields.io/badge/HTML-83.0%25-red)
-![CSS](https://img.shields.io/badge/CSS-13.6%25-purple)
-![JavaScript](https://img.shields.io/badge/JavaScript-3.4%25-yellow)
+![HTML](https://img.shields.io/badge/HTML-84.1%25-red)
+![CSS](https://img.shields.io/badge/CSS-12.7%25-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-3.2%25-yellow)
 
 ## Description
 
@@ -17,7 +17,7 @@ This is the home page that gives a brief description of who I am, my skills, and
 
 ## Portfolio
 
-This is the portfolio page which will showcase all of my current and future projects! Links to the deployed project and it respective repo will be listed on this page as well. Clicking on the project image will open it in a new tab with the whole image.
+This is the portfolio page which will showcase all of my current and future projects! Links to the deployed project and its respective repo will be listed on this page as well. Clicking on the project image/gif will open it in a new tab with the whole image or a preview of the project on giphy.
 
 ![Portfolio Webpage Screenshot](./assets/images/portfolioPageScreenshot.png)
 
