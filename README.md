@@ -1,7 +1,7 @@
 # Responsive Portfolio
-![HTML](https://img.shields.io/badge/HTML-87.2%25-red)
-![CSS](https://img.shields.io/badge/CSS-10.2%25-purple)
-![JavaScript](https://img.shields.io/badge/JavaScript-2.6%25-yellow)
+![HTML](https://img.shields.io/badge/HTML-86.8%25-red)
+![CSS](https://img.shields.io/badge/CSS-10.8%25-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-2.4%25-yellow)
 
 ## Description
 
@@ -11,7 +11,7 @@ Deployed Project: https://eroux13.github.io
 
 ## About Me
 
-This is the home page that gives a brief description of who I am, my skills, and my hobbies. I have also included icons, which when clicked on, will link to my professional socials. 
+This is the home page that gives a brief description of who I am, my skills, and my hobbies. I have also included icons, which when clicked on, will link to my professional socials as well as a downloadable pdf of my resume. Underneath the socials is information on how to contact me via email or phone number.
 
 ![About Me Webpage Screenshot](./assets/images/homePageScreenshot.png)
 
