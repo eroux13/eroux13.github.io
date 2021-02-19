@@ -57,13 +57,17 @@ nav ul li a{
     background-color: rgb(228, 228, 228);
 }
 
+.socialIcons{
+    margin-bottom: 5px;
+}
+
 .card-title{
     color: teal;
     border-bottom: 1px solid grey;
     padding-bottom: 5px;
 }
 
-.fa-github-square, .fa-linkedin, .fa-stack-overflow{
+.fa-github-square, .fa-linkedin, .fa-stack-overflow, .fa-file{
     font-size: 70px;
     color: grey;
     transition: 0.3s;
@@ -79,6 +83,29 @@ nav ul li a{
 
 .fa-stack-overflow:hover{
     color: orange;
+}
+
+.fa-file:hover {
+    color: teal;
+}
+
+.communication{
+    height: 50px;
+    text-align: center;
+}
+
+.commType{
+    padding: 10px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+    border-top: 1px solid grey;
+    font-size: 20px;
+    color: grey;
+}
+
+.communicationIcon{
+    margin-right: 10px;
+    font-size: 25px !important; 
+    color: grey;
 }
 /* Social Card Styling End */
 
