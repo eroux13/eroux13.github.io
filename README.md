@@ -1,11 +1,12 @@
 # Responsive Portfolio
-![HTML](https://img.shields.io/badge/HTML-88.1%25-red)
-![CSS](https://img.shields.io/badge/CSS-9.7%25-purple)
-![JavaScript](https://img.shields.io/badge/JavaScript-2.2%25-yellow)
+
+![HTML](https://img.shields.io/badge/HTML-90.2%25-red)
+![CSS](https://img.shields.io/badge/CSS-8.0%25-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-1.8%25-yellow)
 
 ## Description
 
-The purpose of this project is to demonstrate my ability to use the most recent version of [Bootstrap](https://getbootstrap.com/) to build responsive web pages. The project contains 3 different pages, an "About Me" page, a "Portfolio" page, and a "Contact" page. This project will also be my own personal portfolio that will showcase many future projects that I will build! 
+The purpose of this project is to demonstrate my ability to use the most recent version of [Bootstrap](https://getbootstrap.com/) to build responsive web pages. The project contains 3 different pages, an "About Me" page, a "Portfolio" page, and a "Contact" page. This project will also be my own personal portfolio that will showcase many future projects that I will build!
 
 Deployed Project: https://eroux13.github.io
 
